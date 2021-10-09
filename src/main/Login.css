@@ -1,0 +1,27 @@
+:root {
+    --orangepeel: #FF9E00;
+    --brancogelo: #F7F7F7;
+    --purple: #5A189A;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.imagem {
+    background-position: center;
+    background-size: cover;
+    width: calc(100% - 520px);
+    position: relative;
+
+
+}
